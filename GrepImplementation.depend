@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1618154881 source:f:\dsaproject\grepimplementation\main.c
+	<stdio.h>
+	<conio.h>
+	"header.h"
+
+1618155273 f:\dsaproject\grepimplementation\header.h
+
+1618373616 source:f:\dsaproject\grepimplementation\grepimplement.c
+	<stdio.h>
+	<conio.h>
+	"header.h"
+
+1629846720 source:c:\users\mayur\desktop\se(grep implementation)\grepimplementation\grepimplement.c
+	<stdio.h>
+	<conio.h>
+	"header.h"
+
+1618155273 c:\users\mayur\desktop\se(grep implementation)\grepimplementation\header.h
+
