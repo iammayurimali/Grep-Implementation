@@ -95,3 +95,8 @@ void get_lineNumbers(list l1, char sear[]) {
     return;
 }
 
+void help(list l) {
+ printf("grep will help in searching");
+ printf("-n : prints line number with mathced line");
+ printf("-o prints only matched part");
+}
