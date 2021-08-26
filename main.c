@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
 #include "header.h"
-
+#include<stdlib.h>
  int main(){
     list l1,head;
     int choice;
