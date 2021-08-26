@@ -13,5 +13,6 @@ int get_count(list l1, char sear[]);
 void get_lineNumbers(list l1, char sear[]);
 void display_match(list l1, char sear[]);
 void w_command(list l1, char sear[]);
+void help(list l1);
 
 #endif // GREPHEADER_H_INCLUDED
