@@ -32,16 +32,30 @@
     scanf("%d", &choice);
     switch(choice){
          case 1:
-
+              printf("\n*******Implementation of -o command**********\n ");
+              printf("Enter word to be searched: ");
+              scanf("%s", &sear);
+              display_match(l1, tolower(sear));
               break;
          case 2:
-
+              printf("\n*******Implementation of -c command**********\n ");
+              printf("Enter word to be searched: ");
+              scanf("%s", &sear);
+              int a = get_count(l1, sear);
+              if(a != 0)
+                 printf("Pattern to be search: %s \n The number of lines: %d \n", sear, a);
               break;
          case 3:
-
+              printf("\n*******Implementation of -n command***********\n");
+              printf("Enter word to be searched: ");
+              scanf("%s", &sear);
+              get_lineNumbers(l1, sear);
               break;
          case 4:
-
+              printf("\n*******Implementation of -w command***********\n");
+              printf("Enter word to be searched: ");
+              scanf("%s", &sear);
+              w_command(l1, sear);
               break;
          case 5:
               exit(0);
